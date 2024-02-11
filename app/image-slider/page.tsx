@@ -7,15 +7,15 @@ interface ImageSliderProps {
   url: string;
   limit: number;
   page: number;
-  width: number;
-  height: number;
-  download_url: string;
 }
 
 interface ImageItem {
   id: string;
-  download_url: string;
   author: string;
+  width: number;
+  height: number;
+  url: string;
+  download_url: string;
 }
 
 const ImageSlider = ({ url, limit = 5, page = 1 }: ImageSliderProps) => {
