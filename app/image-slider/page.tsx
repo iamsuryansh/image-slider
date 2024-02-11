@@ -7,6 +7,9 @@ interface ImageSliderProps {
   url: string;
   limit: number;
   page: number;
+  width: number;
+  height: number;
+  download_url: string;
 }
 
 interface ImageItem {
